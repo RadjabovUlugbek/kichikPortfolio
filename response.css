@@ -1,0 +1,131 @@
+@media (max-width:1400px) {
+
+    .menyu {
+        position: absolute;
+        margin-left: -150%;
+        width: 35rem;
+    }
+
+    .dash {
+        display: block;
+    }
+
+    .about {
+        margin: auto;
+        width: 100%;
+    }
+
+    .boxes div {
+        font-size: 30px;
+    }
+
+    .change {
+        margin-left: -60%;
+        width: 35rem;
+    }
+
+}
+@media (max-width: 1220px) {
+    .boxes div {
+        width: 10rem;
+    }
+    .menyu {
+        position: absolute;
+        margin-left: -150%;
+        width: 30rem;
+    }
+    .change {
+        margin-left: -60%;
+        width: 30rem;
+    }
+}
+@media (max-width: 1050px) {
+    .menyu {
+        position: absolute;
+        margin-left: -150%;
+        width: 25rem;
+    }
+    .change {
+        margin-left: -60%;
+        width: 25rem;
+    }
+}
+/* sdafsasdf */
+@media (max-width: 933px) {
+    .menyu {
+        position: absolute;
+        margin-left: -200%;
+        width: 50%;
+    }
+    .change {
+        margin-left: -50%;
+        width: 50%;
+    }
+    .boxes {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .boxes div{
+        width: 90%;
+        margin: 5px;
+        height: 120px;
+        font-size: 20px;
+    }
+}
+/* dsafsvfddsas */
+@media (max-width: 700px) {
+    .about_pro {
+        display: block;
+    }
+
+    .info {
+        margin-top: 0;
+        display: grid;
+        line-height: 0px;
+        grid-template-columns: auto auto;
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: auto ;
+        width: 100%;
+        height: 100%;
+    }
+
+    .boxes div{
+        width: 90%;
+        margin: 5px;
+        height: 120px;
+        font-size: 20px;
+    }
+    .boxes div h3{
+        margin: 0;
+    }
+}
+/* dsasad */
+@media (max-width: 513px) {
+    .info {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .boxes div{
+        width: 90%;
+        margin: 5px;
+        height: 120px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 426px) {
+    .boxes{
+        width: 100%;
+    }
+    .boxes div{
+        width: 90%;
+        margin: 5px;
+        height: 120px;
+        font-size: 20px;
+    }
+    .con_info{
+        font-size: 10px;
+    }
+}

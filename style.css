@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    background-color: rgb(34, 34, 34);
+    /* position: fixed; */
+}
+
+.cont {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menyu {
+    width: 30rem;
+    height: 100%;
+    background: #333;
+}
+
+.about {
+    
+    height: 100%;
+    overflow-y: auto;
+}
+
+select {
+    height: 5%;
+    border-radius: 5px;
+    border: 0;
+    background: blue;
+}
+
+.img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 5px yellow solid;
+    object-fit: cover;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.men-but {
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    background: rgb(34,34,34);
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.men-but:hover a{
+    color: black;
+    transition: all 1s;
+}
+.men-but:hover {
+    background: yellow;
+    color: black;
+}
+
+.men-but:active{
+    background: #000;
+}
+.but {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.name{
+    text-align: center;
+    margin: 5px auto;
+    color: white;
+}
+
+.image {
+    margin: auto;
+    width: 100%;
+}
+.home_page{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+h1,h3{
+    color: white;
+    text-align: center;
+}
+h1 span{
+    color: yellow;
+}
+h3 span{
+    color: yellow;
+}
+h2{
+    color: white;
+}
+.but_about{
+    background: #333;
+    color: white;
+    width: 15%;
+    border: 0;
+    border-radius: 10px;
+    padding: 1%;
+}
+.but_about:active{
+    background: yellow ;
+    color: black;
+}
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+.about_pro{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.boxes{
+    display: grid;
+    width: 50%;
+    grid-template-columns: auto auto;
+    
+}
+
+.boxes div{
+    font-size: 36px;
+    width: 15rem;
+    margin: 1rem;
+    height: 220px;
+    border-radius: 10px;
+    padding: 1rem;
+    background: #333;
+    text-align: center;
+}
+.boxes div h3{
+    color: yellow;
+}
+.boxes div h4{
+    color: white;
+}
+.about_page{
+    height: 100vh;
+}
+.info{
+    height: 100%;
+    margin-top: 100px;
+}
+i{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px ;
+    margin-top: 6px;
+}
+.dash{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: none;
+    position: fixed;
+    margin: 1rem;
+}
+
+.edu  div div{
+    width: 95%;
+    height: 20vh;
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-around;
+    border-left: 2px solid yellow ;
+    color: white;
+
+}
+.edu  div div i{
+    color: yellow;
+    font-size: 200%;
+    margin: 0 2%;
+}
+.contact div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.con_info{
+    width: 50%;
+    display: block;
+}
+.con_info div{
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 200%;
+}
+.con_info div i{
+    color: yellow;
+}
+.inp_con{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+}
+.your_name,.email{
+    width: 49.1%;
+    height: 5vh;
+    color: white;
+    background-color: #333;
+    border: 0;
+    outline: none;
+    margin: 1rem 0;
+}
+.massage{
+    height: 3vh;
+    color: white;
+    background-color: #333;
+    border: 0;
+    outline: none;
+    height: 20vh;
+}
+.blabal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    color: black;
+    background: yellow;
+    margin-top: 10px;
+    padding: .5rem;
+    border-radius: 10px;
+}
+.submit:active{
+    color: white;
+    background: #333;
+    border: none;
+}
+.fa-arrow-right{
+    color: #333;
+}
+.con_info div{
+    line-height: 60px;
+}
